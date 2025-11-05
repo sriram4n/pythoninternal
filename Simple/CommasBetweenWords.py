@@ -1,6 +1,6 @@
 str = input("Enter word: ")
 result = ""
-for word in str:
-    result += word + ","
+for ch in str:
+    result += ch + ","
 
 print(result[:-1])

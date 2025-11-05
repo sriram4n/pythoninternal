@@ -8,11 +8,11 @@ class ClassB(ClassA):
 
 class ClassC(ClassB):
     def m(self):
-        print("in class C")
-    
-class ClassD(ClassC, ClassB):
+        print("in class c")
+
+class ClassD(ClassC , ClassB):
     def m(self):
-        print("in class D")
+        print("In class D")
         ClassB.m(self)
         ClassC.m(self)
         ClassA.m(self)
