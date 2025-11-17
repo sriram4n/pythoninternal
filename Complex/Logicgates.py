@@ -11,6 +11,7 @@ def NOT(a):
 
 def XOR(a,b):
     return a ^ b
+
 print("A B | A & B")
 for i in [0,1]:
     for j in [0,1]:

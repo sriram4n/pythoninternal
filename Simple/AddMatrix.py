@@ -10,4 +10,4 @@ matrix2 = [
 print("Addition: ")
 print(np.add(matrix1,matrix2))
 print("Multiplication: ")
-print(np.multiply(matrix1,matrix2))
+print(np.dot(matrix1,matrix2))

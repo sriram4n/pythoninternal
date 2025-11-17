@@ -8,7 +8,7 @@ canvas = Canvas(root, width=400, height=300, bg="white")
 canvas.pack()
 
 # Draw a rectangle
-canvas.create_rectangle(50, 50, 150, 120, fill="lightblue")
+canvas.create_rectangle(50, 50, 180, 100, fill="lightblue")
 
 # Draw a circle (using oval)
 canvas.create_oval(200, 50, 280, 130, fill="lightgreen")
